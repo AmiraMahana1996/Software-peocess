@@ -124,10 +124,10 @@
                     </div>
                     <div class="portfolioContainer" style="margin-top: -50px;">
                         <div class="col-xs-6 col-sm-4 col-md-3 hsgrids" style="padding-right: 5px;padding-left: 5px;">
-                            <a class="g-list" href="service-details/ac-dry-servicing.html">
+                            <a class="g-list" href="service-details/ac-dry-servicing.html" style="height:400px!important;">
                                 <div class="img-hover">
                                     <img src="{{ asset('images/services/thumbnails/images.jpg') }}"
-                                        alt="AC Dry Servicing" class="img-responsive">
+                                        alt="AC Dry Servicing" class="img-responsive" style="height:150px!important;">
                                 </div>
                                 <div class="info-gallery">
                                     <h3>AC Dry Servicing</h3>
@@ -143,7 +143,7 @@
                             <a class="g-list" href="service-details/ac-installation.html">
                                 <div class="img-hover">
                                     <img src="{{ asset('images/services/thumbnails/Install.jpg') }}"
-                                        alt="AC Installation" class="img-responsive">
+                                        alt="AC Installation" class="img-responsive" style="height:150px!important;">
                                 </div>
                                 <div class="info-gallery">
                                     <h3>AC Installation</h3>
@@ -159,7 +159,7 @@
                             <a class="g-list" href="service-details/ac-gas-top-up.html">
                                 <div class="img-hover">
                                     <img src="{{ asset('images/services/thumbnails/Gas.jpeg') }}" alt="AC Gas Top Up"
-                                        class="img-responsive">
+                                        class="img-responsive" style="height:150px!important;">
                                 </div>
                                 <div class="info-gallery">
                                     <h3>AC Gas Top Up</h3>
@@ -175,7 +175,7 @@
                             <a class="g-list" href="service-details/ac-gas-refill.html">
                                 <div class="img-hover">
                                     <img src="{{ asset('images/services/thumbnails/ac-.jpg') }}" alt="AC Gas Refill"
-                                        class="img-responsive">
+                                        class="img-responsive" style="height:150px!important;">
                                 </div>
                                 <div class="info-gallery">
                                     <h3>AC Gas Refill</h3>
@@ -297,57 +297,60 @@
                 </div>
             </div>
             <div id="boxes-carousel">
-                <div>
-                    <a class="g-list" href="service-details/ac-wet-servicing.html">
-                        <div class="img-hover">
-                            <img src="{{ asset('images/services/thumbnails/Gas.jpeg') }}" alt=""
-                                class="img-responsive">
-                        </div>
-
-                        <div class="info-gallery">
-                            <h3>AC Wet Servicing</h3>
-                            <hr class="separator">
-                            <p>AC Wet Servicing</p>
-                            <div class="content-btn"><a href="service-details/ac-wet-servicing.html"
-                                    class="btn btn-primary">Book Now</a></div>
-                            <div class="price"><span>&#36;</span><b>From</b>200</div>
-                        </div>
-                    </a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="g-list" href="service-details/ac-wet-servicing.html">
+                            <div class="img-hover">
+                                <img src="{{ asset('images/services/thumbnails/Gas.jpeg') }}" alt=""
+                                    class="img-responsive" style="height:250px!important;" >
+                            </div>
+    
+                            <div class="info-gallery">
+                                <h3>AC Wet Servicing</h3>
+                                <hr class="separator">
+                                <p>AC Wet Servicing</p>
+                                <div class="content-btn"><a href="service-details/ac-wet-servicing.html"
+                                        class="btn btn-primary">Book Now</a></div>
+                                <div class="price"><span>&#36;</span><b>From</b>200</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="g-list" href="service-details/bedroom-deep-cleaning.html">
+                            <div class="img-hover">
+                                <img src="{{ asset('images/services/thumbnails/bedroom-cleaning-.jpg') }}" alt=""
+                                    class="img-responsive" style="height:250px!important;">
+                            </div>
+    
+                            <div class="info-gallery">
+                                <h3>Bedroom Deep Cleaning</h3>
+                                <hr class="separator">
+                                <p>Bedroom Deep Cleaning</p>
+                                <div class="content-btn"><a href="service-details/bedroom-deep-cleaning.html"
+                                        class="btn btn-primary">Book Now</a></div>
+                                <div class="price"><span>&#36;</span><b>From</b>300</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="g-list" href="service-details/dining-chair-shampooing.html">
+                            <div class="img-hover">
+                                <img src="{{ asset('images/services/thumbnails/Dining.jpg') }}" alt=""
+                                    class="img-responsive" style="height:250px!important;">
+                            </div>
+    
+                            <div class="info-gallery">
+                                <h3>Dining Chair Shampooing</h3>
+                                <hr class="separator">
+                                <p>Dining Chair Shampooing</p>
+                                <div class="content-btn"><a href="service-details/dining-chair-shampooing.html"
+                                        class="btn btn-primary">Book Now</a></div>
+                                <div class="price"><span>&#36;</span><b>From</b>400</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a class="g-list" href="service-details/bedroom-deep-cleaning.html">
-                        <div class="img-hover">
-                            <img src="{{ asset('images/services/thumbnails/bedroom-cleaning-.jpg') }}" alt=""
-                                class="img-responsive">
-                        </div>
-
-                        <div class="info-gallery">
-                            <h3>Bedroom Deep Cleaning</h3>
-                            <hr class="separator">
-                            <p>Bedroom Deep Cleaning</p>
-                            <div class="content-btn"><a href="service-details/bedroom-deep-cleaning.html"
-                                    class="btn btn-primary">Book Now</a></div>
-                            <div class="price"><span>&#36;</span><b>From</b>300</div>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a class="g-list" href="service-details/dining-chair-shampooing.html">
-                        <div class="img-hover">
-                            <img src="{{ asset('images/services/thumbnails/Dining.jpg') }}" alt=""
-                                class="img-responsive">
-                        </div>
-
-                        <div class="info-gallery">
-                            <h3>Dining Chair Shampooing</h3>
-                            <hr class="separator">
-                            <p>Dining Chair Shampooing</p>
-                            <div class="content-btn"><a href="service-details/dining-chair-shampooing.html"
-                                    class="btn btn-primary">Book Now</a></div>
-                            <div class="price"><span>&#36;</span><b>From</b>400</div>
-                        </div>
-                    </a>
-                </div>
+{{--             
                 <div>
                     <a class="g-list" href="service-details/carpet-shampooing.html">
                         <div class="img-hover">
@@ -449,7 +452,7 @@
                             <div class="price"><span>&#36;</span><b>From</b>111</div>
                         </div>
                     </a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
