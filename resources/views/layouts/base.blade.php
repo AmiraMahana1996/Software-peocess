@@ -46,7 +46,7 @@
                                     <li>
                                         <form action="{{ url('localization') }}" method="post" id="form">
                                             @csrf
-                                            <select name="languge" class="form-select languale selectpicker" aria-label="Default select example">
+                                            <select name="languge" class="form-control languale selectpicker" aria-label="Default select example">
                                               
                                                 <option  value="ar" {{ session()->get('locale') == 'ar' ? 'selected' : '' }}>ar</option>
                                                 <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>en</option>
